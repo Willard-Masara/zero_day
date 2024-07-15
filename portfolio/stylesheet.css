@@ -1,0 +1,148 @@
+body {
+    background-color: purple;
+    padding: 20px;
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Ensure the background animations don't cause scrollbars */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    width: 130px;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.willard {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.columns {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.column {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px yellow;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input, form button {
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: auto;
+    padding: 5px 10px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: lightblue;
+}
+
+
+
+
